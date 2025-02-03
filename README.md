@@ -5,4 +5,8 @@
 ## 数据源
 中图分类官网给出的[电子版链接](http://clc.nlc.cn/ztfdzbjj.jsp)也比较难用，由于想要获取的是结构化的中图分类数据，所以只能从目前的一些中图分类号检索网站进行数据爬取。本python包用到的中图分类数据由两个网站爬取并最终综合得来: [网站1](http://clc.nlc.cn/ztfdzbjj.jsp) [网站2](https://ztflh.xhma.com/)。爬取代码看项目[CLC-data-crawl](https://github.com/sheoguo/CLC-data-crawl)。
 ## 安装
+------------
 
+install via pip (from PyPI):
+
+    pip install chinese-library-classification
